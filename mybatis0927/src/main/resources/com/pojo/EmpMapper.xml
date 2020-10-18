@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pojo.Emp">
+
+    <resultMap id="emp" type="com.pojo.Emp">
+        <id property="empid" column="empid"></id>
+        <result property="empname" column="empname"></result>
+
+        <association property="dep" column="did" select="com.pojo.Dep.findbyid">
+        </association>
+
+     <!--   <association property="dep" column="did" javaType="com.pojo.Dep">
+        <id column="depid" property="depid"></id>
+        <result column="depname" property="depname"></result>
+        </association>-->
+
+    </resultMap>
+
+    <select id="findbydep" resultMap="emp" parameterType="int">
+        select empid, empname,did from emp where did=#{depid}
+    </select>
+
+    <select id="findbyid" resultMap="emp" parameterType="int">
+        select empid, empname,did from emp where empid=#{empid}
+    </select>
+
+    <select id="findbyid2" resultMap="emp" parameterType="int">
+        select empid, empname,did , depid , depname from emp , dep where empid=#{empid} and depid=did
+    </select>
+
+    <select id="fenye" resultMap="emp" >
+        select empid , empname from emp
+    </select>
+
+
+
+</mapper>
+
+

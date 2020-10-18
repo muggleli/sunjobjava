@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ssm1" />
+        <module name="ajax" />
+        <module name="mybatis05" />
+        <module name="mybatis04" />
+        <module name="mybatis03" />
+        <module name="spring07" />
+        <module name="spring06" />
+        <module name="spring001" />
+        <module name="spring04" />
+        <module name="web005" />
+        <module name="web004" />
+        <module name="javaweb002" />
+        <module name="web002" />
+        <module name="web0012" />
+        <module name="mybatis003" />
+        <module name="hibernate" />
+        <module name="springmybatis001" />
+        <module name="web003" />
+        <module name="mybatis01" />
+        <module name="spring05" />
+        <module name="web729" />
+        <module name="javaexercise1" />
+        <module name="mybatis0927" />
+        <module name="web24" />
+        <module name="s85javaweb" />
+        <module name="web014" />
+        <module name="web013" />
+        <module name="webproject" />
+        <module name="web0817" />
+        <module name="web0818" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ajax" target="1.7" />
+      <module name="hibernate" target="1.7" />
+      <module name="javaexercise1" target="1.7" />
+      <module name="javaweb001" target="1.5" />
+      <module name="javaweb002" target="1.7" />
+      <module name="mybatis003" target="1.7" />
+      <module name="mybatis01" target="1.7" />
+      <module name="mybatis03" target="1.7" />
+      <module name="mybatis04" target="1.7" />
+      <module name="mybatis05" target="1.7" />
+      <module name="mybatis0927" target="1.7" />
+      <module name="s85javaweb" target="1.7" />
+      <module name="spring001" target="1.7" />
+      <module name="spring04" target="1.7" />
+      <module name="spring05" target="1.7" />
+      <module name="spring06" target="1.7" />
+      <module name="spring07" target="1.7" />
+      <module name="springmybatis001" target="1.7" />
+      <module name="ssm1" target="1.7" />
+      <module name="web001" target="1.7" />
+      <module name="web0012" target="1.7" />
+      <module name="web002" target="1.7" />
+      <module name="web003" target="1.7" />
+      <module name="web004" target="1.7" />
+      <module name="web005" target="1.7" />
+      <module name="web013" target="1.7" />
+      <module name="web014" target="1.7" />
+      <module name="web0817" target="1.7" />
+      <module name="web0818" target="1.7" />
+      <module name="web24" target="1.7" />
+      <module name="web729" target="1.7" />
+      <module name="webproject" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

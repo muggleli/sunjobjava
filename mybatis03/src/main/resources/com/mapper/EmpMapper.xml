@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pojo.Emp">
+
+    <resultMap id="emp" type="com.pojo.Emp">
+        <id property="empid" column="empid"></id>
+        <result property="empname" column="empname"></result>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.pojo.Emp">
+        insert into emp(empname , did) value (#{empname} ,#{did})
+    </insert>
+
+    <insert id="insertuuid" parameterType="com.pojo.Emp">
+        <selectKey keyProperty="empid" resultType="string" order="BEFORE">
+            select replace(uuid(),'-','') as id from dual
+        </selectKey>
+        insert into emp(empid,empname) values(#{empid},#{empname})
+    </insert>
+
+
+</mapper>

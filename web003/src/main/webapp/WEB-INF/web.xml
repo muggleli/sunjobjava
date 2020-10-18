@@ -1,0 +1,26 @@
+
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>MyServlet</servlet-name>
+    <!---->
+    <servlet-class>com.servlet.MyServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/myservlet.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>com.servlet.LoginAction</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/loginAction.do</url-pattern>
+  </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ajax/ajax.iml" filepath="$PROJECT_DIR$/ajax/ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dpexcrise/dpexcrise.iml" filepath="$PROJECT_DIR$/dpexcrise/dpexcrise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-22/edcouder.iml" filepath="$PROJECT_DIR$/java-22/edcouder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/educoder/educoder.iml" filepath="$PROJECT_DIR$/educoder/educoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate/hibernate.iml" filepath="$PROJECT_DIR$/hibernate/hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hrms/hrms.iml" filepath="$PROJECT_DIR$/hrms/hrms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-20/java-20.iml" filepath="$PROJECT_DIR$/java-20/java-20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-22/java-22.iml" filepath="$PROJECT_DIR$/java-22/java-22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaexercise1/javaexercise1.iml" filepath="$PROJECT_DIR$/javaexercise1/javaexercise1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javatest/javatest.iml" filepath="$PROJECT_DIR$/javatest/javatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javatext/javatext.iml" filepath="$PROJECT_DIR$/javatext/javatext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaweb002/javaweb002.iml" filepath="$PROJECT_DIR$/javaweb002/javaweb002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis003/mybatis003.iml" filepath="$PROJECT_DIR$/mybatis003/mybatis003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis01/mybatis01.iml" filepath="$PROJECT_DIR$/mybatis01/mybatis01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis03/mybatis03.iml" filepath="$PROJECT_DIR$/mybatis03/mybatis03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis04/mybatis04.iml" filepath="$PROJECT_DIR$/mybatis04/mybatis04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis05/mybatis05.iml" filepath="$PROJECT_DIR$/mybatis05/mybatis05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis0927/mybatis0927.iml" filepath="$PROJECT_DIR$/mybatis0927/mybatis0927.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s85javaweb/s85javaweb.iml" filepath="$PROJECT_DIR$/s85javaweb/s85javaweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring001/spring001.iml" filepath="$PROJECT_DIR$/spring001/spring001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring04/spring04.iml" filepath="$PROJECT_DIR$/spring04/spring04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring05/spring05.iml" filepath="$PROJECT_DIR$/spring05/spring05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring06/spring06.iml" filepath="$PROJECT_DIR$/spring06/spring06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring07/spring07.iml" filepath="$PROJECT_DIR$/spring07/spring07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmybatis001/springmybatis001.iml" filepath="$PROJECT_DIR$/springmybatis001/springmybatis001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm1/ssm1.iml" filepath="$PROJECT_DIR$/ssm1/ssm1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunjobjava.iml" filepath="$PROJECT_DIR$/sunjobjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-22/tourism_ms.iml" filepath="$PROJECT_DIR$/java-22/tourism_ms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tourms/tourms.iml" filepath="$PROJECT_DIR$/tourms/tourms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled1/untitled1.iml" filepath="$PROJECT_DIR$/untitled1/untitled1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web001/web001.iml" filepath="$PROJECT_DIR$/web001/web001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web0012/web0012.iml" filepath="$PROJECT_DIR$/web0012/web0012.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web002/web002.iml" filepath="$PROJECT_DIR$/web002/web002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web003/web003.iml" filepath="$PROJECT_DIR$/web003/web003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web004/web004.iml" filepath="$PROJECT_DIR$/web004/web004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web005/web005.iml" filepath="$PROJECT_DIR$/web005/web005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web010/web010.iml" filepath="$PROJECT_DIR$/web010/web010.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web011/web011.iml" filepath="$PROJECT_DIR$/web011/web011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web012/web012.iml" filepath="$PROJECT_DIR$/web012/web012.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web013/web013.iml" filepath="$PROJECT_DIR$/web013/web013.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web014/web014.iml" filepath="$PROJECT_DIR$/web014/web014.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web0817/web0817.iml" filepath="$PROJECT_DIR$/web0817/web0817.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web0818/web0818.iml" filepath="$PROJECT_DIR$/web0818/web0818.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web24/web24.iml" filepath="$PROJECT_DIR$/web24/web24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web729/web729.iml" filepath="$PROJECT_DIR$/web729/web729.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webproject/webproject.iml" filepath="$PROJECT_DIR$/webproject/webproject.iml" />
+    </modules>
+  </component>
+</project>

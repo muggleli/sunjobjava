@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pojo.Dep">
+<resultMap id="dep" type="com.pojo.Dep">
+    <id column="depid" property="depid"></id>
+    <result column="depname" property="depname"></result>
+</resultMap>
+
+    <sql id="fields">
+        depid,depname
+    </sql>
+
+  <select id="selectin" resultType="com.pojo.Dep" parameterType="list">
+      select <include refid="fields"></include> from dep where depid in
+     <foreach collection="list" open="(" close=")" separator="," item="id">
+         #{id}
+     </foreach>
+  </select>
+
+    <select id="findbyid" resultType="com.pojo.Dep" >
+        select <include refid="fields"></include> from dep where depid = #{depid}
+    </select>
+
+</mapper>

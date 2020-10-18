@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pojo.Emp">
+
+ <update id="update" parameterType="com.pojo.Emp">
+     update emp set
+    <!-- <set>
+         <if test="gender!=null and gender!=''">
+             gender=#{gender},
+         </if>
+         <if test="empname!=null and empname!=''">
+             empname=#{empname},
+         </if>
+     </set>-->
+     <trim suffixOverrides=",">
+
+         <if test="gender!=null and gender!=''">
+             gender=#{gender} ,
+         </if>
+
+         <if test="empname!=null and empname!=''">
+             empname=#{empname} ,
+         </if>
+
+     </trim>
+
+     where  empid = #{empid}
+ </update>
+
+    <select id="findby" parameterType="com.pojo.Emp" resultType="com.pojo.Emp">
+
+        select empid , empname ,gender from emp
+        <where>
+            <if test="empid!=null and empid!=''">
+               and empid = #{empid}
+            </if>
+
+            <if test="empname!=null and empname!=''">
+              and  empname like concat(concat("%" , #{empname}),"%")
+            </if>
+            <if test="gender!=null and gender!=''">
+              and  gender = #{gender}
+            </if>
+        </where>
+    </select>
+    <insert id="batchinsert" parameterType="list">
+        insert into emp(empid,empname,gender) values
+
+        <foreach collection="list" separator="," item="emp">
+            (#{emp.empid},#{emp.empname},#{emp.gender})
+        </foreach>
+
+    </insert>
+
+
+</mapper>

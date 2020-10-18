@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="s85javaweb:war">
+    <output-path>$PROJECT_DIR$/s85javaweb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>s85javaweb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="s85javaweb.war">
+      <element id="artifact" artifact-name="s85javaweb:war exploded" />
+    </root>
+  </artifact>
+</component>
